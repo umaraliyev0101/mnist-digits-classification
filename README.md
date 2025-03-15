@@ -6,7 +6,6 @@ This project implements a **Convolutional Neural Network (CNN)** using PyTorch t
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Results](#results)
 - [License](#license)
@@ -25,45 +24,17 @@ This project implements a **Convolutional Neural Network (CNN)** using PyTorch t
     ```bash
     pip install -r requirements.txt
 
-## Usage
-
-**Training the Model**
-
-To train the CNN model on the MNIST dataset:
-
-    ``bash
-    python src/train.py
-
-**Testing the Model**
-
-To test the model on the MNIST test set:
-
-    ``bash
-    python src/test.py
-
-**Predicting a Custom Image**
-
-To predict a digit from a custom image (e.g., your_digit.jpg):
-
-    ``bash
-    python src/predict.py --image path/to/your/image.jpg
+---
 
 ## Project Structure
 
-mnist-digit-recognition/
-├── .gitignore            # Specifies files to ignore
-├── LICENSE               # MIT License
-├── README.md             # Project overview
-├── requirements.txt      # Python dependencies
-├── data/                 # MNIST dataset (downloaded automatically)
-├── models/               # Saved model weights
-├── images/               # Example images
-├── src/                  # Source code
-│   ├── train.py          # Training script
-│   ├── test.py           # Testing script
-│   ├── predict.py        # Prediction script
-│   ├── model.py          # CNN model definition
-│   ├── utils.py          # Helper functions (if any)
+mnist-digit-recognition/ \
+├── .gitignore            # Specifies files to ignore\
+├── LICENSE               # MIT License\
+├── README.md             # Project overview\
+├── requirements.txt      # Python dependencies\
+├── images/               # Example images\
+├── mnist_digits.ipynb    # The code\
 
 ## Results
 
@@ -98,10 +69,3 @@ For questions or feedback, feel free to reach out:
 6. **Contact Info**: Added a section for questions or feedback.
 
 ---
-
-### **How to Add Images**:
-1. Create an `images/` folder in your project.
-2. Add your images (e.g., `mnist_example.png`, `prediction_example.png`).
-3. Reference them in the `README.md` using:
-   ```markdown
-   ![Alt Text](images/your_image.jpg)
