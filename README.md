@@ -29,12 +29,12 @@ This project implements a **Convolutional Neural Network (CNN)** using PyTorch t
 ## Project Structure
 
 mnist-digit-recognition/ \
-├── .gitignore            # Specifies files to ignore\
-├── LICENSE               # MIT License\
-├── README.md             # Project overview\
-├── requirements.txt      # Python dependencies\
-├── images/               # Example images\
-├── mnist_digits.ipynb    # The code\
+├── .gitignore            <sub> Specifies files to ignore</sub>\
+├── LICENSE               <sub> MIT License</sub>\
+├── README.md             <sub> Project overview</sub>\
+├── requirements.txt      <sub> Python dependencies</sub>\
+├── images/               <sub> Example images</sub>\
+├── mnist_digits.ipynb    <sub> The code</sub>
 
 ## Results
 
