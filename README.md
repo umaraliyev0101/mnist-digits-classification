@@ -1,8 +1,8 @@
 # MNIST Digit Recognition with PyTorch
 
-![MNIST Example](images/mnist_example.png) <!-- Add an example image if you have one -->
+![MNIST Example](images/mnist_example.png)
 
-This project implements a **Convolutional Neural Network (CNN)** using PyTorch to classify handwritten digits from the MNIST dataset. The model achieves **~98% accuracy** on the test set and can be used to predict digits from custom images.
+This project implements a **Convolutional Neural Network (CNN)** using PyTorch to classify handwritten digits from the MNIST dataset. The model achieves **~99% accuracy** on the test set and can be used to predict digits from custom images.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -30,18 +30,21 @@ This project implements a **Convolutional Neural Network (CNN)** using PyTorch t
 **Training the Model**
 
 To train the CNN model on the MNIST dataset:
+
     ```bash
     python src/train.py
 
 **Testing the Model**
 
 To test the model on the MNIST test set:
+
     ```bash
     python src/test.py
 
 **Predicting a Custom Image**
 
 To predict a digit from a custom image (e.g., your_digit.jpg):
+
     ```bash
     python src/predict.py --image path/to/your/image.jpg
 
