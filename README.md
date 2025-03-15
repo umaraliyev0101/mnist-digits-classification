@@ -25,28 +25,30 @@ This project implements a **Convolutional Neural Network (CNN)** using PyTorch t
     ```bash
     pip install -r requirements.txt
 
+---
+
 ## Usage
 
 **Training the Model**
 
 To train the CNN model on the MNIST dataset:
 
-    ``bash
+   ```bash
     python src/train.py
 
 **Testing the Model**
 
 To test the model on the MNIST test set:
 
-    ``bash
-    python src/test.py
 
 **Predicting a Custom Image**
 
 To predict a digit from a custom image (e.g., your_digit.jpg):
 
-    ``bash
+    ```bash
     python src/predict.py --image path/to/your/image.jpg
+
+---
 
 ## Project Structure
 
@@ -65,6 +67,8 @@ mnist-digit-recognition/
 │   ├── model.py          # CNN model definition
 │   ├── utils.py          # Helper functions (if any)
 
+---
+
 ## Results
 
  - Test Accuracy: 98.2%
@@ -73,11 +77,15 @@ mnist-digit-recognition/
 
 This project is licensed under the MIT License. See LICENSE for details.
 
+---
+
 ## Acknowledgments
 
  - The MNIST dataset for providing the handwritten digit images.
 
  - PyTorch for the deep learning framework.
+
+---
 
 ## Contact
 
