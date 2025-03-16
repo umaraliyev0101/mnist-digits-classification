@@ -6,7 +6,7 @@ from PIL import Image
 from model import MNIST_Classifier  # Import your model class
 
 st.title("MNIST Digit Recognizer")
-st.write("Upload a handwritten digit (28x28 pixels)")
+st.write("Upload a handwritten digit")
 
 # Load the trained model
 model = MNIST_Classifier()
