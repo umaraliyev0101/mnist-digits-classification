@@ -10,7 +10,7 @@ st.write("Upload a handwritten digit (28x28 pixels)")
 
 # Load the trained model
 model = MNIST_Classifier()
-model.load_state_dict(torch.load('models/mnist_model.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('mnist_model.pth', map_location=torch.device('cpu')))
 model.eval()
 
 # Upload image

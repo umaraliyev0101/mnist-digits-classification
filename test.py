@@ -5,7 +5,7 @@ from model import MNIST_Classifier
 
 # Load the trained model
 model = MNIST_Classifier()
-model.load_state_dict(torch.load('models/mnist_model.pth',weights_only=True))
+model.load_state_dict(torch.load('mnist_model.pth',weights_only=True))
 model.eval()
 
 # Load and preprocess test data

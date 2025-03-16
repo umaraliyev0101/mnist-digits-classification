@@ -46,4 +46,4 @@ for epoch in range(epochs):
         running_loss += loss.item()
     print(f"Epoch {epoch+1}/{epochs}, Loss: {running_loss/len(train_loader):.4f}")
 
-torch.save(model.state_dict(), 'models/mnist_model.pth')
+torch.save(model.state_dict(), 'mnist_model.pth')
