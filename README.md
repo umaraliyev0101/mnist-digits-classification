@@ -24,6 +24,8 @@ This project implements a **Convolutional Neural Network (CNN)** using PyTorch t
     ```bash
     pip install -r requirements.txt
 
+
+There might be some unnecessary dependencies (I forgot to to create Virtual Envinronment)
 ---
 
 ## Project Structure
