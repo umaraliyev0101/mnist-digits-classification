@@ -53,3 +53,9 @@ urllib3==2.2.3
 watchdog==4.0.2
 webencodings==0.5.1
 zipp==3.20.2
+contourpy==1.1.1 
+cycler==0.12.1
+fonttools==4.56.0
+kiwisolver==1.4.7
+matplotlib==3.7.5
+pyparsing==3.1.4

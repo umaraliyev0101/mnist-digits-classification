@@ -29,5 +29,8 @@ if uploaded_file:
         confidence = confidence.item()  # Convert to Python float
         confidence = math.floor(confidence * 10000) / 10000
         prediction = prediction.item()  # Convert to Python int
+        confidence_threshold = 0.7  
+        if confidence < confidence_threshold:
+            st.warning(f"Low confidence prediction ({confidence:.2f}). Try a clearer image!")  
     st.write(f"Prediction: **{prediction}**")
     st.write(f"With the accuracy of **{confidence:.4f}**")

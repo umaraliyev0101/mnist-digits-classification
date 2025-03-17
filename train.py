@@ -12,6 +12,8 @@ epochs = 10
 
 # Load and preprocess data
 transform = transforms.Compose([
+    transforms.RandomRotation(10),      # Rotate images randomly by ±10 degrees  
+    transforms.RandomAffine(0, translate=(0.1, 0.1)),  # Shift images by 10%  
     transforms.ToTensor(),
     transforms.Normalize((0.5,), (0.5,))
 ])
