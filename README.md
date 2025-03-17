@@ -34,7 +34,13 @@ mnist-digit-recognition/ \
 ├── README.md            #       _Project overview_\
 ├── requirements.txt     #       _Python dependencies_\
 ├── images/              #       _Example images_\
-├── mnist_digits.ipynb   #       _The code_
+├── errors/              #       _Misclassified images_\
+├── notebooks/           #       _The Notebook file_\
+├── model.py             #       _The current model_\
+├── predict.py           #       _Predicts given image of a digit_\
+├── test.py              #       _Tests the model accuracy_\
+├── utils.py             #       _For image presentation_\
+├── train.py             #       _The code of training the model_
 
 ## Results
 
