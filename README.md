@@ -26,6 +26,7 @@ This project implements a **Convolutional Neural Network (CNN)** using PyTorch t
 
 
 There might be some unnecessary dependencies (I forgot to to create Virtual Envinronment)
+
 ---
 
 ## Project Structure
